@@ -1,0 +1,61 @@
+/* Add your CSS here to style your halloween page */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+p {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  border: 2px solid rgb(91, 7, 94);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fd86f5;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+    text-align: center;
+    background-color: #ffe281;
+    padding: 20px;
+}
+img {
+    border: 7px solid rgb(216, 112, 0);
+    border-radius: 8px;
+    max-width: 50%;
+    height: auto;
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: times new roman, times, serif;
+  background-color: #ffe281;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+}
