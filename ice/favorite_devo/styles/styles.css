@@ -45,3 +45,11 @@ body {
   box-shadow: 5px 5px 0px black;
   min-height: 400px;
 }
+table {
+  border: 1px solid black;
+  grid-row: align center;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  height: 100%;
+}
