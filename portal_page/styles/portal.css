@@ -1,0 +1,21 @@
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 20px;
+  margin: 20px;
+  background-color: #c97878;
+}
+main{
+  display: flex;
+  text-align: center;
+  gap: 200px;
+  padding: 40px;
+  background-color: #c96868;
+}
