@@ -22,7 +22,7 @@ main{
   display: flex;
   text-align: center;
   gap: 100px;
-  padding: 40px;
+  padding: 30px;
   background-color: #c96868;
   color: #4e0505;
 }
