@@ -9,10 +9,77 @@
     <style>
         * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             background: rgb(120, 96, 64);
+            font-family: "times new roman", serif;
+        }
+        form input {
+            padding: 5px;
+        }
+        #formContainer {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            width: 650px;
+            height: auto;
+            margin: 20px auto;
+            border: 7px solid #210384;
+        }
+
+        #closeBtn {
+            position: absolute;
+            top: 70px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+         
+
+        button[type="submit"] {
+            background-color: rgb(120, 96, 64);
+            color: white;
+            cursor: pointer;
+
+        }
+
+        button[type="submit"]:hover {
+            background-color: rgb(100, 80, 50);
+        }
+        section {
+            margin-top: 10px;
+            align-content: center;
+            text-align: center;
+        }
+        .topimgcontainer img{
+            width: 100%;
+            height: auto;
+        }
+        h3 {
+            align-items: center;
+            display: flex;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        #myform {
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 
@@ -23,6 +90,9 @@
 
 <body>
     <div id="formContainer">
+        <div class="topimgcontainer">
+            <img src="images/jesus_feeds_5000.jpeg" alt="Top Image">
+        </div>
         <h3>Sign Up for Daily Scripture Feed</h3>
         <form id="myForm">
             <button type="button" id="closeBtn">X</button>
@@ -56,6 +126,10 @@
             <section>
                 <button type="submit">Submit</button>
             </section>
+
+            <footer>
+            <img src="images/book_of_mormon.webp" alt="Book of Mormon" width="80px"> <img src="images/doctrine_and_covenants.webp" alt="Doctrine and Covenants" width="80px"> <img src="images/pearl_of_great_price.webp" alt="Pearl of Great Price" width="80px"> <img src="images/new_testament.webp" alt="New Testament" width="80px"> <img src="images/old_testament.webp" alt="Old Testament" width="80px">
+            </footer>
         </form>
     </div>
 
